@@ -12,6 +12,9 @@
 #include "Title.h"
 #include "end.h"
 
+//test
+
+
 Map m_map;
 
 void GameInit() {
