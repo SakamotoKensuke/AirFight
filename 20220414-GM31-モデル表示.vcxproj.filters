@@ -1,0 +1,285 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="ソース ファイル">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="リソース ファイル">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="ソース ファイル\system">
+      <UniqueIdentifier>{82d7ba25-fb73-4d97-a259-f8d470edd484}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\system\DX11">
+      <UniqueIdentifier>{a738f34d-2ad5-4a2b-8e40-187a40291e94}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\system\DX11\util">
+      <UniqueIdentifier>{dde3cbde-9e3e-4a59-9d17-d0293f9253cd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\system\model">
+      <UniqueIdentifier>{3a6e9366-9952-4ae7-9bbd-e48626c793d1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\system\util">
+      <UniqueIdentifier>{2649bf78-57a8-4c00-aafd-d99837aaeaf9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\game">
+      <UniqueIdentifier>{8ce9242e-2228-4cd4-965e-ee0fcfe4486d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\game\gameobject">
+      <UniqueIdentifier>{add4dd74-ba31-4960-b723-cb77d62e5691}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\system\window">
+      <UniqueIdentifier>{ab8b8e90-73b0-44ba-b909-29cccbb061e6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\game\gameobject\player">
+      <UniqueIdentifier>{e5aa1be0-5275-4f40-9c76-2163adaaebc1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\game\util">
+      <UniqueIdentifier>{fc87b590-c7bc-439b-a24e-8683200d3574}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\game\map">
+      <UniqueIdentifier>{0f1eee92-46ac-4d2b-8a48-1cf4add14c40}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\game\gameobject\Bullet">
+      <UniqueIdentifier>{d2160a98-9c8f-4df5-82ed-7cbbee92d85a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\game\gameobject\Enemy">
+      <UniqueIdentifier>{0fd89fd9-e4fc-4fbe-a84c-00bd16f61f60}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\game\quaternion">
+      <UniqueIdentifier>{bbb48d2f-79a0-46a7-9bb5-876cbb34d8bc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\game\gameobject\Bullet\homming">
+      <UniqueIdentifier>{40f09921-f234-41b6-8fad-bf886652c86f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\ヘッダー ファイル">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="game.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="WinMain.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="dx11mathutil.cpp">
+      <Filter>ソース ファイル\system\DX11\util</Filter>
+    </ClCompile>
+    <ClCompile Include="Shader.cpp">
+      <Filter>ソース ファイル\system\DX11\util</Filter>
+    </ClCompile>
+    <ClCompile Include="dx11util.cpp">
+      <Filter>ソース ファイル\system\DX11\util</Filter>
+    </ClCompile>
+    <ClCompile Include="CDirectXGraphics.cpp">
+      <Filter>ソース ファイル\system\DX11</Filter>
+    </ClCompile>
+    <ClCompile Include="assimpscene.cpp">
+      <Filter>ソース ファイル\system\model</Filter>
+    </ClCompile>
+    <ClCompile Include="CModel.cpp">
+      <Filter>ソース ファイル\system\model</Filter>
+    </ClCompile>
+    <ClCompile Include="DDSTextureLoader.cpp">
+      <Filter>ソース ファイル\system\model</Filter>
+    </ClCompile>
+    <ClCompile Include="WICTextureLoader.cpp">
+      <Filter>ソース ファイル\system\model</Filter>
+    </ClCompile>
+    <ClCompile Include="mesh.cpp">
+      <Filter>ソース ファイル\system\model</Filter>
+    </ClCompile>
+    <ClCompile Include="ModelData.cpp">
+      <Filter>ソース ファイル\system\model</Filter>
+    </ClCompile>
+    <ClCompile Include="utftosjisconv.cpp">
+      <Filter>ソース ファイル\system\model</Filter>
+    </ClCompile>
+    <ClCompile Include="CWindow.cpp">
+      <Filter>ソース ファイル\system\window</Filter>
+    </ClCompile>
+    <ClCompile Include="CWindowCallback.cpp">
+      <Filter>ソース ファイル\system\window</Filter>
+    </ClCompile>
+    <ClCompile Include="player.cpp">
+      <Filter>ソース ファイル\game\gameobject\player</Filter>
+    </ClCompile>
+    <ClCompile Include="AirFight.cpp">
+      <Filter>ソース ファイル\game</Filter>
+    </ClCompile>
+    <ClCompile Include="drawaxis.cpp">
+      <Filter>ソース ファイル\game\util</Filter>
+    </ClCompile>
+    <ClCompile Include="map.cpp">
+      <Filter>ソース ファイル\game\map</Filter>
+    </ClCompile>
+    <ClCompile Include="ModelMgr.cpp">
+      <Filter>ソース ファイル\system\model</Filter>
+    </ClCompile>
+    <ClCompile Include="Bullet.cpp">
+      <Filter>ソース ファイル\game\gameobject\Bullet</Filter>
+    </ClCompile>
+    <ClCompile Include="BoundingSphere.cpp">
+      <Filter>ソース ファイル\game\gameobject</Filter>
+    </ClCompile>
+    <ClCompile Include="Sphere.cpp">
+      <Filter>ソース ファイル\game\gameobject</Filter>
+    </ClCompile>
+    <ClCompile Include="enemy.cpp">
+      <Filter>ソース ファイル\game\gameobject\Enemy</Filter>
+    </ClCompile>
+    <ClCompile Include="Application.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="CBillBoard.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="quaternion.cpp">
+      <Filter>ソース ファイル\game\quaternion</Filter>
+    </ClCompile>
+    <ClCompile Include="hommingmissile.cpp">
+      <Filter>ソース ファイル\game\gameobject\Bullet\homming</Filter>
+    </ClCompile>
+    <ClCompile Include="Title.cpp">
+      <Filter>ソース ファイル\game</Filter>
+    </ClCompile>
+    <ClCompile Include="Cpngtexture.cpp">
+      <Filter>ソース ファイル\game</Filter>
+    </ClCompile>
+    <ClCompile Include="end.cpp">
+      <Filter>ソース ファイル\game</Filter>
+    </ClCompile>
+    <ClCompile Include="Sprite.cpp">
+      <Filter>ソース ファイル\game\gameobject</Filter>
+    </ClCompile>
+    <ClCompile Include="skydome.cpp">
+      <Filter>ソース ファイル\ヘッダー ファイル</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="dx11mathutil.h">
+      <Filter>ソース ファイル\system\DX11\util</Filter>
+    </ClInclude>
+    <ClInclude Include="DX11Settransform.h">
+      <Filter>ソース ファイル\system\DX11\util</Filter>
+    </ClInclude>
+    <ClInclude Include="Shader.h">
+      <Filter>ソース ファイル\system\DX11\util</Filter>
+    </ClInclude>
+    <ClInclude Include="DX11util.h">
+      <Filter>ソース ファイル\system\DX11\util</Filter>
+    </ClInclude>
+    <ClInclude Include="CCamera.h">
+      <Filter>ソース ファイル\system\DX11</Filter>
+    </ClInclude>
+    <ClInclude Include="CDirectInput.h">
+      <Filter>ソース ファイル\system\DX11</Filter>
+    </ClInclude>
+    <ClInclude Include="CDirectxGraphics.h">
+      <Filter>ソース ファイル\system\DX11</Filter>
+    </ClInclude>
+    <ClInclude Include="CLight.h">
+      <Filter>ソース ファイル\system\DX11</Filter>
+    </ClInclude>
+    <ClInclude Include="assimpscene.h">
+      <Filter>ソース ファイル\system\model</Filter>
+    </ClInclude>
+    <ClInclude Include="CModel.h">
+      <Filter>ソース ファイル\system\model</Filter>
+    </ClInclude>
+    <ClInclude Include="ModelData.h">
+      <Filter>ソース ファイル\system\model</Filter>
+    </ClInclude>
+    <ClInclude Include="utftosjisconv.h">
+      <Filter>ソース ファイル\system\model</Filter>
+    </ClInclude>
+    <ClInclude Include="vertexproto.h">
+      <Filter>ソース ファイル\system\model</Filter>
+    </ClInclude>
+    <ClInclude Include="CWindow.h">
+      <Filter>ソース ファイル\system\window</Filter>
+    </ClInclude>
+    <ClInclude Include="CWindowCallback.h">
+      <Filter>ソース ファイル\system\window</Filter>
+    </ClInclude>
+    <ClInclude Include="mesh.h">
+      <Filter>ソース ファイル\system\model</Filter>
+    </ClInclude>
+    <ClInclude Include="Memory.h">
+      <Filter>ソース ファイル\ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="game.h">
+      <Filter>ソース ファイル\ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="Application.h">
+      <Filter>ソース ファイル\ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="macro.h">
+      <Filter>ソース ファイル\ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="gameobject.h">
+      <Filter>ソース ファイル\game\gameobject</Filter>
+    </ClInclude>
+    <ClInclude Include="player.h">
+      <Filter>ソース ファイル\game\gameobject\player</Filter>
+    </ClInclude>
+    <ClInclude Include="shaderhashmap.h">
+      <Filter>ソース ファイル\system\util</Filter>
+    </ClInclude>
+    <ClInclude Include="AirFight.h">
+      <Filter>ソース ファイル\game</Filter>
+    </ClInclude>
+    <ClInclude Include="drawaxis.h">
+      <Filter>ソース ファイル\game\util</Filter>
+    </ClInclude>
+    <ClInclude Include="line.h">
+      <Filter>ソース ファイル\game\util</Filter>
+    </ClInclude>
+    <ClInclude Include="map.h">
+      <Filter>ソース ファイル\game\map</Filter>
+    </ClInclude>
+    <ClInclude Include="skydome.h">
+      <Filter>ソース ファイル\ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="ModelMgr.h">
+      <Filter>ソース ファイル\system\model</Filter>
+    </ClInclude>
+    <ClInclude Include="Bullet.h">
+      <Filter>ソース ファイル\game\gameobject\Bullet</Filter>
+    </ClInclude>
+    <ClInclude Include="BoundingSphere.h">
+      <Filter>ソース ファイル\game\gameobject</Filter>
+    </ClInclude>
+    <ClInclude Include="Sphere.h">
+      <Filter>ソース ファイル\game\gameobject</Filter>
+    </ClInclude>
+    <ClInclude Include="enemy.h">
+      <Filter>ソース ファイル\game\gameobject\Enemy</Filter>
+    </ClInclude>
+    <ClInclude Include="CBillBoard.h">
+      <Filter>ソース ファイル\ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="quat.h">
+      <Filter>ソース ファイル\game\quaternion</Filter>
+    </ClInclude>
+    <ClInclude Include="hommingmissile.h">
+      <Filter>ソース ファイル\game\gameobject\Bullet\homming</Filter>
+    </ClInclude>
+    <ClInclude Include="Title.h">
+      <Filter>ソース ファイル\game</Filter>
+    </ClInclude>
+    <ClInclude Include="Cpngtexture.h">
+      <Filter>ソース ファイル\game</Filter>
+    </ClInclude>
+    <ClInclude Include="end.h">
+      <Filter>ソース ファイル\game</Filter>
+    </ClInclude>
+    <ClInclude Include="Sprite.h">
+      <Filter>ソース ファイル\game\gameobject</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
